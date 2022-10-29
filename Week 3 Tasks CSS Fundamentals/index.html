@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio website</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!----hero Section start---->
+  <header>
+    <nav>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1>Nnodim <span>Obinna</span></h1>
+        <h3>I am an aspiring Web Developer.</h3>
+        <div class="newslatter">
+          <form>
+            <input type="email" name="email" id="mail" placeholder="Enter Your Email" />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!----About section start---->
+    <section id="about" class="about">
+      <div class="main">
+        <img alt="" src="img/Image.PNG" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer <span>& Designer</span></h5>
+          <p>
+            I am an aspiring front-end web developer. I am part of the current
+            zuri cohort. I want to able to make responsive websites that are
+            accessible to all users, regardless of their device.
+            SOme of my hobbies include coding, music, playing video games etc.
+          </p>
+          <button type="button">Let's Talk</button>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skill-container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-name">HTML</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="skill-name">CSS</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="60%" style="max-width: 60%;"></div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="skill-name">Javascript</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="40%" style="max-width: 40%;"></div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="skill-name">Python</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="40%" style="max-width: 40%;"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img
+            src="img/projectphoto.jpg"
+            alt="tribute pzge"
+            class="project-pic"
+          />
+          <h3 class="project-title">Zuri Tribute Page</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </section>
+
+    <!-----service section start----------->
+    <section id="service" class="service">
+      <div class="title">
+        <h2>Services</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Every website should be built with two primary goals: Firstly,
+              it needs to work across all devices. Secondly, it needs to be
+              fast as possible.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-user"></i>
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Every website should be built with two primary goals: Firstly,
+              it needs to work across all devices. Secondly, it needs to be
+              fast as possible.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Every website should be built with two primary goals: Firstly,
+              it needs to work across all devices. Secondly, it needs to be
+              fast as possible.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------Contact Me------>
+    <div class="contact-me">
+      <p>Let Me Get You A Beautiful Website.</p>
+      <a class="button-two" href="contact.html" target="_blank">Contact Me</a>
+    </div>
+  </main>
+
+  <!------footer start--------->
+  <footer>
+    <p>Nnodim Obinna</p>
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-dribbble"></i></a>
+    </div>
+    <p class="end">CopyRight 2022</p>
+  </footer>
+</body>
+
+</html>
