@@ -1,3 +1,3 @@
-# zuri week 5 tasks
+# zuri week 5 task
 
 Git and GitHub
