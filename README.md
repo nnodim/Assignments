@@ -1,6 +1,5 @@
-# zuri week 3 tasks
+# zuri week 4 tasks
 
-Html and CSS
+Recreating designs using css flexbox and grid layout
 
-replit link: <https://replit.com/@nnodim/Portfolio#index.html>
-<https://replit.com/@nnodim/Registration-Success-and-Login?v=1>
+replit link: <https://replit.com/@nnodim/Layout-Task?v=1>
